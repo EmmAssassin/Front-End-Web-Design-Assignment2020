@@ -1,0 +1,265 @@
+/* Churchill House CSS Sheet*/
+
+@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+
+/* Font imports (using and those considered)*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter&family=Bungee&family=David+Libre:wght@500&family=Forum&family=Passion+One:wght@700&family=Rubik+Mono+One&display=swap');
+
+/*Font family to actually add to text:
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bitter', serif;
+font-family: 'Bungee', cursive;
+font-family: 'David Libre', serif;
+font-family: 'Forum', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Rubik Mono One', sans-serif;
+*/
+
+html {
+  overflow-x: hidden;  
+    max-width: 100%;
+}
+
+body {
+   /* background: #6181A2; 
+    background: #007B6F;
+    background: #4AA79D; */
+    background: #B8D4D0; 
+    min-height: 100%;
+}
+
+header {
+    background: #007B6F;
+    position: sticky;
+    width: 100%;
+    margin-right: 0;
+    overflow-x: hidden;
+    font-family: 'Bungee', cursive;
+}
+
+footer {
+    background: #007B6F;
+    width: 100%;
+    padding: 1em;
+    bottom: 0;
+    text-align: center;
+    font-family: 'David Libre', serif;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul {
+    /*text-align: left;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}     
+
+nav ul li {
+    /*display: inline-block;
+    padding: 15px;*/
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #283323;
+}
+
+nav ul li a:hover {
+    background-color: #016359;
+}
+
+section {
+    margin-top: 3em;
+}
+
+main {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 3em;
+    margin-bottom: 8px;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Bitter', serif;
+}
+
+main ul {
+    list-style-position: inside;
+}
+
+main ul li {
+    margin:  15px;
+    list-style-type: disc;
+    position:static;
+    padding-left: 3em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'David Libre', serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'David Libre', serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'David Libre', serif;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 1em;
+    font-family: 'David Libre', serif;
+}
+
+ol {
+    margin: 1em;
+    text-align: center;
+}
+
+ol li {
+    margin: 10px;
+}
+
+/* Classes */
+
+.picture {
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.picture ul {
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.picture ul li{
+    font-size: 20px;
+}
+
+.picture ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 15px 20px;
+}
+
+.picture ul li a:hover{
+    background-color: #9bbab6;
+}
+
+img.image1{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img.image2{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+img.image3{
+    width: 100%;
+}
+
+.boxy{
+    display: block;
+    border: 10px;
+    border-color: cadetblue;
+    border-style: groove;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.boxy p{
+    margin: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.Contentbox{
+    display: block;
+    border: 10px;
+    border-color: cadetblue;
+    border-style: groove;
+    background-color: aliceblue;
+    margin-top: 5em;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+}
+
+/* ID's */
+
+#Content{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Bungee', cursive;
+}
+
+#brief{
+    margin-top: 10em;
+}
+
+#main{
+    margin-top: 10em;
+}
+
+#north{
+    margin-top: 10em;
+}
+
+#pool{
+    margin-top: 10em;
+}
+
+#style{
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+#bottomspace{
+    margin-bottom: 5em;
+}
+
+#font{
+    font-family: 'Bungee', cursive;
+    color: #007B6F;
+}
+
+#font1 ul li a:hover {
+    background-color: #016359;
+}
+
+#font1{
+    font-family: 'Bungee', cursive;
+    color: #007B6F;
+}
+
+#top{
+    font-family: 'Bungee', cursive;
+}
